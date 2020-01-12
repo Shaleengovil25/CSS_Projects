@@ -47,3 +47,48 @@ body{
 #navbar ul li:hover ul li a{
     color: #333;
 }
+#navbar ul li:hover ul li:hover{
+    background: #e0e0e0;
+    color:inherit;
+    text-decoration: underline;
+}
+#navbar ul li:hover ul li span{
+    float: right;
+    color: #fff;
+    background: coral;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+
+}
+#navbar ul li:hover ul li:hover span{
+    background: chocolate;
+}
+
+#showcase{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    padding: 0 2rem;
+    background: coral;
+    color: #f4f4f4;
+
+}
+
+@media(max-width:600px){
+    #navbar ul li{
+        display: block;
+        text-align: center;
+        border-bottom: #333 dotted 0.5px;
+
+    }
+    #navbar ul li:hover ul{
+        width: 100%;
+        position: relative;
+        
+    }
+}
