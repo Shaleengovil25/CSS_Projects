@@ -67,6 +67,7 @@ body{
     transform: translateY(-1200px);
     animation: heading var(--animate-speed) forwards ease-in;
 }
+/* Text animation: Heading comes from Top */
 @keyframes heading{
     to{
         transform: translateY(0);
@@ -77,6 +78,7 @@ body{
     transform: translateX(-1800px);
     animation: paragraph var(--animate-speed) forwards ease-in 1s;
 }
+/* Text animation: Para comes from left */
 @keyframes paragraph{
     to{
         transform: translateX(0);
